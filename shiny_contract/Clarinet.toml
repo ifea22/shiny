@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.pantry_with_emergency_freeze]
+path = 'contracts/pantry_with_emergency_freeze.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.user_identy]
 path = 'contracts/user_identy.clar'
 clarity_version = 2
