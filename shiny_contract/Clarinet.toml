@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.deposit_refund_wallet]
+path = 'contracts/deposit_refund_wallet.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.storage_expiration]
 path = 'contracts/storage_expiration.clar'
 clarity_version = 2
